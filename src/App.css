@@ -1,0 +1,86 @@
+/* App Style*/
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: #446344;
+    text-decoration:  underline solid black;    
+ }
+
+/* search */
+ .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#inputRecipe{
+    font-size: 16px;
+    height:20px;
+    width:300px;
+}
+#searchRecipe{
+    outline: none;
+    border: solid #446344;
+    font-size: 16px;
+    align-self: stretch;
+    cursor: pointer;
+    background-color:#a7d8a7;
+}
+#searchRecipe:hover{
+    background-color: #446344;
+    color: white;
+    
+}
+
+/* Reciepe Style*/
+
+.container{
+    display: flex;
+    margin:20px;
+    /* flex: 0 0 80%; ASK VALERI ABOUT FLEX PROPERTY */ 
+    flex-wrap: wrap;
+
+}
+.img__container{
+    width:300px;
+    height: 200px;
+    border: 5px solid #446344;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.info__container{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: 200px;
+    margin-right: 80px;
+}
+
+.title__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #81ca81 /* #cfba74; /*b8a25b*/
+}
+.title, .calories {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;   
+}
+.calories{
+    color:blue;  
+}
+
+.ingredients__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingredients{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
